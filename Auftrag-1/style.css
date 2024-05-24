@@ -1,0 +1,87 @@
+body 
+{
+    font-family: "Comic Sans MS", sans-serif; 
+    background-color: #ffffcc;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 
+{
+    background-color: #ff6347; 
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px; 
+    color: white; 
+}
+
+
+h2 
+{
+    color: #ff6347; 
+}
+
+p, li 
+{
+    color: #333; 
+}
+
+table 
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td 
+{
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    padding: 15px;
+    text-align: left;
+}
+
+th 
+{
+    background-color: #ff6347; 
+}
+
+
+a 
+{
+    color: #fa8570; 
+}
+
+a:hover 
+{
+    color: #f3cece; 
+}
+
+.einleitung,
+.zutaten,
+.dauer-person,
+.zubereitung,
+.bilder,
+.link 
+{
+    margin: 10px;
+    padding: 20px; 
+    border-radius: 10px;
+    border: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    background-color: #ffffb3; 
+}
+
+
+.zutaten table 
+{
+    border-top: 2px solid #ff6347; 
+    background-color: #fdfdbf;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+}
+

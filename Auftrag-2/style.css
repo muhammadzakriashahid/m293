@@ -1,0 +1,37 @@
+body 
+{
+    background-color: #1c1c1c; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header 
+{
+    background-color: #333333; 
+    color: #FFD700;
+    padding: 10px;
+    text-align: center;
+}
+
+.film-container 
+{
+    color: #CCCCCC;
+    float: left;
+    width: 24%;
+    border: #CCCCCC 1px solid;
+    border-radius: 10px;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.film-container h2 {
+    color: #1E90FF;
+}
+
+.film-container img
+ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

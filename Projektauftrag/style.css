@@ -1,0 +1,329 @@
+/* BODY */
+body
+{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    
+}
+
+/* body-element for the home page*/
+.body-home
+{
+}
+
+/* body-element for the themen page */
+.body-themen
+{
+}
+
+/* body-element for the contact page */
+.body-contact
+{
+
+}
+
+/* NAVBAR */
+
+/* navbar-element */
+.navbar
+{
+    justify-content: center; 
+    font-size: large;
+    display: flex;
+}
+
+/* Navbar Pagename styling */
+.contact-nav-h1,
+.home-nav-h1,
+.themen-nav-h1
+{
+    margin-right: auto;
+    margin-top: 0.75%;
+    margin-left: 5%;
+}
+
+.contact-nav-h1-a,
+.home-nav-h1-a,
+.themen-nav-h1-a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar li element/s */
+.navbar-li
+{
+    display: inline;
+    padding: 2.5rem;
+}
+
+/* navbar a element/s */
+.navbar-li-a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+
+/* hover effect for the navbar a element/s */
+.navbar-li-a:hover
+{
+    color: gray;
+}
+
+/* responsive styles */
+@media (max-width: 768px) 
+{
+    .navbar 
+    {
+        align-items: center;
+    }
+
+    .navbar-li 
+    {
+        padding: 0.5rem;
+    }
+}
+
+/* MAIN */
+
+.main-home
+{
+    margin: 5%;
+}
+
+.main-themen
+{
+    margin: 5%;
+}
+
+.main-contact
+{
+    margin: 5%;
+}
+
+
+/* HOME PAGE START*/
+
+/* BLOG START */
+
+.main-blogs-container
+{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 1rem;
+}
+
+.main-blogs
+{
+    border-radius: 1px solid black;
+    margin: 1rem;
+    max-width: 30rem;
+    min-width: 10rem;
+}
+
+
+/* BLOG END */
+
+/* NEWSLETTER SIGNUP FORM */
+
+.newsletter-signup 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.newsletter-signup-h2
+ {
+    color: #333;
+    text-align: center;
+}
+
+.newsletter-signup input[type="email"] 
+{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.newsletter-signup button[type="submit"] 
+{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.newsletter-signup button[type="submit"]:hover 
+{
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+
+/* HOME PAGE END */
+
+
+/* THEMEN PAGE START */
+
+.themen-blogs-container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.themen-blogs
+{
+    border-radius: 1px solid black;
+    width: 18rem;
+    margin: 1rem;
+    max-width: 30rem;
+    min-width: 10rem;
+}
+
+.filter-nav
+{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.filter-nav-btns
+{
+    font-size: large;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 2rem;
+    padding: 0.500rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.filter-nav-btns:hover
+{
+    background-color: rgb(30, 30, 30);
+}
+
+/* THEMEN END */
+
+
+/* CONTACT PAGE START */
+
+.autor-contact-container
+{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.autor-contact
+{
+    background-color: #e5e5e5;
+    border-radius: 1px solid black;
+    margin-left: 1rem;
+    padding: 1.5rem;
+    max-width: 30rem;
+    min-width: 10rem;
+    text-align: center;
+}
+
+/* CONTACT FORM */
+
+.contact-form-h2
+{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form styling */
+.contact-form 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 40.625rem;
+    min-height: 31.25rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+}
+
+.contact-form-label 
+{
+    margin-bottom: 0.3125rem;
+    margin-left: 0.3125rem;
+    font-weight: bold;
+}
+
+.contact-form-fieldset
+{
+    border: none;
+    padding: 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea 
+{
+    margin-bottom: 1.25rem;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.3125rem;
+}
+
+.contact-form-dropdown 
+{
+    margin-bottom: 1.25rem;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.3125rem;
+    background-color: white;
+    font: 1em comic sans ms, sans-serif;
+}
+
+.contact-form-textarea 
+{
+    height: 9.375rem;
+    resize: none;
+}
+
+.contact-form button[type="submit"] 
+{
+    padding: 1.125rem 1.25rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: bold;
+}
+
+.contact-form button[type="submit"]:hover 
+{
+    background-color: rgb(30, 30, 30);
+
+}
+
+/* CONTACT PAGE END */
+
+/* FOOTER */
+
+.footer
+{
+    /* to put the footer at the bottom */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}

@@ -33,7 +33,7 @@ body
 
 /* Navbar Pagename styling */
 .contact-nav-h1,
-.home-nav-h1,
+.home-nav-h2,
 .themen-nav-h1
 {
     margin-right: auto;
@@ -42,7 +42,7 @@ body
 }
 
 .contact-nav-h1-a,
-.home-nav-h1-a,
+.home-nav-h2-a,
 .themen-nav-h1-a
 {
     text-decoration: none;

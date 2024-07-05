@@ -10,8 +10,8 @@ body
 {
 }
 
-/* body-element for the themen page */
-.body-themen
+/* body-element for the topics page */
+.body-topics
 {
 }
 
@@ -31,10 +31,11 @@ body
     display: flex;
 }
 
+
 /* Navbar Pagename styling */
 .contact-nav-h1,
 .home-nav-h2,
-.themen-nav-h1
+.topics-nav-h1
 {
     margin-right: auto;
     margin-top: 0.75%;
@@ -43,7 +44,7 @@ body
 
 .contact-nav-h1-a,
 .home-nav-h2-a,
-.themen-nav-h1-a
+.topics-nav-h1-a
 {
     text-decoration: none;
     color: black;
@@ -89,11 +90,13 @@ body
 .main-home
 {
     margin: 5%;
+    margin-top: auto;
 }
 
-.main-themen
+.main-topics
 {
     margin: 5%;
+    margin-top: auto;
 }
 
 .main-contact
@@ -104,22 +107,47 @@ body
 
 /* HOME PAGE START*/
 
+.main-header
+{
+    padding: 1rem;
+}
+
+.main-header-p
+{
+    font-size: large;
+    padding: 1rem;
+}
+
 /* BLOG START */
 
 .main-blogs-container
 {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     overflow-x: auto;
-    padding: 1rem;
+    justify-content: center;
 }
 
 .main-blogs
 {
     border-radius: 1px solid black;
     margin: 1rem;
-    max-width: 30rem;
-    min-width: 10rem;
+    width: 33.33rem;
+    padding: 1rem;
+    background-color: #e5e5e5;
+}
+
+.main-blogs:hover
+{
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.main-blogs-a
+{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -137,6 +165,12 @@ body
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+}
+
+.newsletter-signup:hover
+{
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .newsletter-signup-h2
@@ -171,23 +205,39 @@ body
 /* HOME PAGE END */
 
 
-/* THEMEN PAGE START */
+/* TOPICS PAGE START */
 
-.themen-blogs-container
+.topics-blogs-container
 {
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
-.themen-blogs
+.topics-blogs
 {
     border-radius: 1px solid black;
-    width: 18rem;
     margin: 1rem;
-    max-width: 30rem;
-    min-width: 10rem;
+    padding: 0.8rem;
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.topics-blogs:hover
+{
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.topics-blogs-a
+{
+    text-decoration: none; 
+    color: black;
 }
 
 .filter-nav
@@ -214,7 +264,7 @@ body
     background-color: rgb(30, 30, 30);
 }
 
-/* THEMEN END */
+/* TOPICS END */
 
 
 /* CONTACT PAGE START */
@@ -229,12 +279,18 @@ body
 .autor-contact
 {
     background-color: #e5e5e5;
-    border-radius: 1px solid black;
     margin-left: 1rem;
     padding: 1.5rem;
     max-width: 30rem;
-    min-width: 10rem;
+    min-width: 10rem;   
     text-align: center;
+}
+
+.autor-contact:hover
+{
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 /* CONTACT FORM */

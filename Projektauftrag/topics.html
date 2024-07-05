@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>Topics</title>
 </head>
-<body class="body-home">
+<body class="body-topics">
 
     <!-- Navigation -->
     <header class="title">
         <nav class="navbar">
-            <h2 class="home-nav-h2"><a class="home-nav-h2-a" href="index.html">Home</a></h2>
+            <h1 class="topics-nav-h1"><a class="topics-nav-h1-a" href="topics.html">Topics</a></h1>
             <ul class="navbar-ul">
                 <li class="navbar-li"><a class="navbar-li-a" href="index.html">Home</a></li>
                 <li class="navbar-li"><a class="navbar-li-a" href="topics.html">Topics</a></li>
@@ -20,19 +20,24 @@
         </nav>
     </header>
 
-    <!-- Home -->
-    <main class="main-home">
-        <section class="main-header">
-            <h1>Welcome to my Blog Website</h1>
-                <p class="main-header-p">
-                    Welcome to my blog Website! Here, you'll find articles on a wide range of topics, from technology and business to travel and food. The goal of this website is to provide you with interesting and helpful information that you can enjoy and learn from. Whether you're looking for the latest trends, tips, or just some inspiration, you'll find it all here. Happy reading!
-                </p>
-        </section>
+    <!-- Topics -->
+    <main class="main-topics">
+        <p>
+            Welcome to my blog topics page! Here, you can explore different categories like technology, business, travel, food, and education. Each section contains articles that dive into various aspects of these topics, providing insights, tips, and interesting information. Browse through and discover something new and exciting today!
+        </p>
 
-        <section class="main-blogs-container">
+        <nav class="filter-nav">
+            <button class="filter-nav-btns">Technology</button>
+            <button class="filter-nav-btns">Business</button>
+            <button class="filter-nav-btns">Travel</button>
+            <button class="filter-nav-btns">Food</button>
+            <button class="filter-nav-btns">Education</button>
+        </nav>
 
-            <article class="main-blogs">
-                <a class="main-blogs-a"  href="blogs/technology/Exploring-the-Future-of-Technology/blog.html">
+        <section class="topics-blogs-container">
+
+            <article class="topics-blogs">
+                <a class="topics-blogs-a"  href="blogs/technology/Exploring-the-Future-of-Technology/blog.html">
                     <header>
                         <h3>Exploring the Future of Technology</h3>
                     </header>
@@ -40,49 +45,58 @@
                 </a>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
+                <a class="topics-blogs-a"  href="blogs/technology/Exploring-the-Future-of-Technology/blog.html">
+                    <header>
+                        <h3><a>Emerging Technologies in Healthcare</a></h3>
+                    </header>
+                    <p>Explore how emerging technologies like AI, machine learning, and blockchain are revolutionizing healthcare, improving patient care, and streamlining operations.</p>
+                </a>
+            </article>
+
+            <article class="topics-blogs">
                 <header>
                     <h3>Business Strategies for the Modern World</h3>
                 </header>
                 <p>As the business landscape continues to change, companies must adapt to new challenges</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>Top Travel Destinations for 2024</h3>
                 </header>
                 <p>Looking for your next adventure? We've compiled a list of the top travel destinations for 2024</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>The Art of Culinary Delights</h3>
                 </header>
                 <p>Discover the world of gourmet food and exquisite recipes</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>Innovations in Education</h3>
                 </header>
                 <p>Education is undergoing a transformation with the integration of technology and innovative teaching methods.</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>The Impact of Blockchain on Business</h3>
                 </header>
                 <p>Blockchain technology is revolutionizing various industries</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>Adventure Travel: Tips and Tricks</h3>
                 </header>
                 <p>For those who crave adventure, this blog offers tips and tricks for making the most out of your travel experiences</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>Exploring Vegan Cuisine</h3>
                 </header>
@@ -90,30 +104,21 @@
             </article>
 
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>Online Learning Platforms</h3>
                 </header>
                 <p>The rise of online learning platforms has made education more accessible</p>
             </article>
 
-            <article class="main-blogs">
+            <article class="topics-blogs">
                 <header>
                     <h3>Future Trends in Technology</h3>
                 </header>
-                <p>What does the future hold for technology?</p>
+                <p>What does the future hold for technology? The advancements in AI and its potential applications</p>
             </article>
             
         </section>
-
-
-
-        <form class="newsletter-signup">
-            <h2 class="newsletter-signup-h2">Newsletter Signup</h2>
-            <label class="newsletter-signup-label">Email address:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Sign Up</button>
-        </form>
 
     </main>
 

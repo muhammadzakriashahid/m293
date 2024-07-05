@@ -1,0 +1,143 @@
+body
+{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    
+}
+
+/* NAVBAR */
+
+/* navbar-element */
+.navbar
+{
+    justify-content: center; 
+    font-size: large;
+    display: flex;
+}
+
+/* Navbar Pagename styling */
+.blog-nav-h2
+{
+    margin-right: auto;
+    margin-top: 0.75%;
+    margin-left: 5%;
+    user-select: none
+}
+
+.blog-nav-h2-a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar li element/s */
+.navbar-li
+{
+    display: inline;
+    padding: 2.5rem;
+}
+
+/* navbar a element/s */
+.navbar-li-a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+
+/* hover effect for the navbar a element/s */
+.navbar-li-a:hover
+{
+    color: gray;
+}
+
+/* responsive styles */
+@media (max-width: 768px) 
+{
+    .navbar 
+    {
+        align-items: center;
+    }
+
+    .navbar-li 
+    {
+        padding: 0.5rem;
+    }
+}
+
+/* NAVBAR END */
+
+/* MAIN */
+
+.blog-date 
+{
+    font-size: 1rem;
+    color: black; 
+    font-size: large;
+    margin-bottom: 1rem; 
+}
+
+/* BLOG TEXT */
+
+.main-blog
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+/* blog title */
+.blog-main-header
+{
+    font-size: x-large;
+    margin: 1%;
+}
+
+.blog-content
+{
+    margin: 1%;
+    font-size: large;
+    text-align: justify;
+}
+
+.blog-content img
+{
+    width: 100%;
+    height: auto;
+    margin: 1%;
+}
+
+/* BLOG TEXT END */
+
+/* BLOG AUTHOR */
+
+.blog-author {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.blog-author-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blog-author-bio {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* BLOG AUTHOR END */
+
+/* MAIN END */
+
+/* FOOTER */
+
+.footer
+{
+    /* to put the footer at the bottom */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}

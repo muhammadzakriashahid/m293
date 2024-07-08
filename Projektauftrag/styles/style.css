@@ -262,8 +262,8 @@ body
 .autor-contact-container
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    overflow-x: auto;
 }
 
 .autor-contact

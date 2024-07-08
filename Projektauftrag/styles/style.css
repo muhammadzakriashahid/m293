@@ -71,20 +71,6 @@ body
     color: gray;
 }
 
-/* responsive styles */
-@media (max-width: 768px) 
-{
-    .navbar 
-    {
-        align-items: center;
-    }
-
-    .navbar-li 
-    {
-        padding: 0.5rem;
-    }
-}
-
 /* MAIN */
 
 .main-home
@@ -246,7 +232,6 @@ body
 {
     display: flex;
     justify-content: center;
-    overflow-x: auto;
 }
 
 .filter-nav-btns

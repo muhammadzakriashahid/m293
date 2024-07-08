@@ -50,20 +50,6 @@ body
     color: gray;
 }
 
-/* responsive styles */
-@media (max-width: 768px) 
-{
-    .navbar 
-    {
-        align-items: center;
-    }
-
-    .navbar-li 
-    {
-        padding: 0.5rem;
-    }
-}
-
 /* NAVBAR END */
 
 /* MAIN */
@@ -108,7 +94,6 @@ body
 
 .blog-content img
 {
-    max-width: 100%;
     height: auto;
     margin: 1%;
 }

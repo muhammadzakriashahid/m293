@@ -55,6 +55,20 @@ body
     color: gray;
 }
 
+/* Responsive Deisgn */
+@media (max-width: 640px)
+{
+    .navbar
+    {
+        align-items: center;
+    }
+
+    .navbar-li
+    {
+        padding: 0.5rem;
+    }
+}
+
 /* NAVBAR END */
 
 /* MAIN */

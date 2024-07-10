@@ -1,8 +1,7 @@
 /* BODY */
 body
 {
-    font-family: Comic Sans MS, cursive, sans-serif;
-    
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* body-element for the home page*/
@@ -352,7 +351,7 @@ body
     border: 0.0625rem solid #ddd;
     border-radius: 0.3125rem;
     background-color: white;
-    font: 1em comic sans ms, sans-serif;
+    font: 1em "Comic Sans MS", cursive, sans-serif;
 }
 
 .contact-form-textarea 

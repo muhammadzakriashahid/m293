@@ -135,7 +135,7 @@ body
 
 .main-blogs
 {
-    border-radius: 1px solid black;
+    border-radius: 1px;
     margin: 1rem;
     width: 33.33rem;
     padding: 1rem;
@@ -224,7 +224,7 @@ body
 
 .topics-blogs
 {
-    border-radius: 1px solid black;
+    border-radius: 1px;
     margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;

@@ -1,6 +1,6 @@
 body
 {
-    font-family: Comic Sans MS, cursive, sans-serif;    
+    font-family: "Comic Sans MS", cursive, sans-serif;    
 }
 
 /* NAVBAR */
@@ -76,7 +76,7 @@ body
 .blog-img
 {
     width: 100%;
-    max-height: 50rm;
+    max-height: 50rem;
 }
 
 .blog-date 

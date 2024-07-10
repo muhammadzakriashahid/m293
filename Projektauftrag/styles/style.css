@@ -31,8 +31,10 @@ body
     display: flex;
 }
 
-.navbar-logo {
-    height: 2.5rem;
+.navbar-logo 
+{
+    width: 8rem; 
+    height: auto;
     margin-right: 1.25rem; 
     margin-left: 5%;
 }

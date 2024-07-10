@@ -76,6 +76,20 @@ body
     color: gray;
 }
 
+/* Responsive Deisgn */
+@media (max-width: 640px)
+{
+    .navbar
+    {
+        align-items: center;
+    }
+
+    .navbar-li
+    {
+        padding: 0.5rem;
+    }
+}
+
 /* MAIN */
 
 .main-home

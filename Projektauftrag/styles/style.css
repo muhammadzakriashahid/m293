@@ -35,8 +35,6 @@ body
 {
     width: 4rem; 
     height: auto;
-    margin-right: 1.25rem; 
-    margin-left: 5%;
 }
 
 /* Navbar Pagename styling */
@@ -45,6 +43,7 @@ body
 .topics-nav-h1
 {
     margin-right: auto;
+    margin-top: 0.75%
     margin-left: 5%;
 }
 

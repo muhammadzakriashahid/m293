@@ -33,7 +33,8 @@ body
 
 .navbar-logo 
 {
-    width: 4rem; 
+    width: 3rem; 
+    height: auto;
     margin-right: 1.25rem; 
 }
 
